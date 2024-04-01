@@ -6,11 +6,17 @@ This repository contains the computational supporting information for the manusc
 
 The reaction [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> was modelled for
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
-|-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| Periodic Group  | Metal, M = | Charge, x =  |
+|-----------------|------------|--------------|
+| Group IV        | Ti         | -4           |
+|                 | Zr         | -4           |
+|                 | Hf         | -4           |
+| Group IV        | V          | -3           |
+|                 | Nb         | -3           |
+|                 | Ta         | -3           |
+| Group IV        | Cr         | -2           |
+|                 | Mo         | -2           |
+|                 | W          | -2           |
 
  (See caption of Scheme 1 for correct M and x combinations). The reaction mechanism sequence for M = is <br> [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3 &rarr; int4 &rarr; ts4 &rarr; int5 &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub>. The step indicated parenthetically is only required for M = .
 
