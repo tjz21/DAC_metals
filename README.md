@@ -10,13 +10,13 @@ The reaction [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr;
 
 | Periodic Group, Charge x = | Metal, M = |
 |:--------------------------:|:----------:|
-| Group IV, -4               | Ti         |
+| Group IV, **-4**           | Ti         |
 | "                          | Zr         |
 | "                          | Hf         |
-| Group IV, -3               | V          |
+| Group IV, **-3**           | V          |
 | "                          | Nb         |
 | "                          | Ta         |
-| Group IV, -2               | Cr         |
+| Group IV, **-2**           | Cr         |
 | "                          | Mo         |
 | "                          | W          |
 
