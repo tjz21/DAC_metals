@@ -4,7 +4,7 @@
 
 This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to the *Journal of Physical Chemistry A*. All parameters and structures needed to reproduce the reaction mechansim for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LAN2LZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
 
-Refer to the below table for the correct combinations of M and x.
+Refer to the below table for the correct combinations of metal center, M, and complex charge, x.
 <div align="center">
 
 | Periodic Group, Charge x = | Metal, M = |
@@ -30,10 +30,10 @@ The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and 
 ## Contents
 ```
 mechanism_files/
-├── reaction_energies.sh # bash script with all energy values and differences
+├── reaction_energies.sh # bash script with all energy values and differences for the DAC and decomposition reactions
 ├── MO4/               
-│   ├── CrO4.xyz         # Cartesian xyz structures with d
-│   ├── HfO4.xyz
+│   ├── CrO4.xyz         # Cartesian xyz structures with Gibbs Free energy in comment line
+│   ├── HfO4.xyz         # Note CrO4 denotes the species [CrO_4]^2-
 │   ├── MoO4.xyz
 │   ├── NbO4.xyz
 │   ├── TaO4.xyz
@@ -43,7 +43,7 @@ mechanism_files/
 │   ├── ZrO4.xyz
 │   └── calculation_summaries.txt # file with 
 │   
-├── MO8/                 # similarly organized directory for 
+├── MO8/                 # similarly organized directory for the tetraperoxo complexes, [M(O_2)_4]^x-
 ├── int1/                
 ├── int2/
 ├── int3/
@@ -56,12 +56,12 @@ mechanism_files/
 ├── free_species/
 │   
 └── MO5CO3/
-    ├── global_min/      # globally minimized product geometries
-    └── mechanism_end/   # geometries from end of mechanism
+    ├── global_min/      # globally minimized carbonatoperoxometalate product geometries
+    └── mechanism_end/   # locally minimized product geometries from end of mechanism
 
-sample_inputs/           # Gaussian input files with functional+basis 
-├── intermediate.com     # set specifications
-└── transition_state.com
+sample_inputs/           
+├── intermediate.com     # Gaussian input files with functional+basis for the mechanism intermediates
+└── transition_state.com # and transiton states
 
 16 directories, 132 files
 ```
