@@ -2,10 +2,9 @@
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
 
-This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to the *Journal of Physical Chemistry A*. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LAN2LZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen<sup>2</sup>.
+This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to the *Journal of Physical Chemistry A*. All parameters and structures needed to reproduce the reaction mechansim for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LAN2LZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
 
-The reaction [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> was modelled for
-
+Refer to the below table for the correct combinations of M and x.
 <div align="center">
 
 | Periodic Group, Charge x = | Metal, M = |
@@ -22,7 +21,7 @@ The reaction [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr;
 
 </div>
 
-(See caption of Scheme 1 for correct M and x combinations). The reaction mechanism sequence for M = is 
+The reaction mechanism sequence for is 
 <div align="center">
 [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3 &rarr; (int4' &rarr; ts4' &rarr;) int4 &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub>
 </div>
@@ -31,9 +30,9 @@ The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and 
 ## Contents
 ```
 mechanism_files/
-├── reaction_energies.sh
-├── MO4/          # Cartesian xyz structures with denoted
-│   ├── CrO4.xyz  #
+├── reaction_energies.sh # bash script with all energy values and differences
+├── MO4/               
+│   ├── CrO4.xyz         # Cartesian xyz structures with d
 │   ├── HfO4.xyz
 │   ├── MoO4.xyz
 │   ├── NbO4.xyz
@@ -42,15 +41,10 @@ mechanism_files/
 │   ├── VO4.xyz
 │   ├── WO4.xyz
 │   ├── ZrO4.xyz
-│   └── calculation_summaries.txt
+│   └── calculation_summaries.txt # file with 
 │   
-├── MO5CO3/
-│   ├── global_min/
-│   └── mechanism_end/
-│   
-├── MO8/
-├── free_species/
-├── int1/
+├── MO8/                 # similarly organized directory for 
+├── int1/                
 ├── int2/
 ├── int3/
 ├── int4/
@@ -58,10 +52,15 @@ mechanism_files/
 ├── ts1/
 ├── ts2/
 ├── ts3/
-└── ts4_prime/
+├── ts4_prime/
+├── free_species/
+│   
+└── MO5CO3/
+    ├── global_min/      # globally minimized product geometries
+    └── mechanism_end/   # geometries from end of mechanism
 
-sample_inputs/            # Gaussian input files with functional+basis 
-├── intermediate.com      # set specifications
+sample_inputs/           # Gaussian input files with functional+basis 
+├── intermediate.com     # set specifications
 └── transition_state.com
 
 16 directories, 132 files
@@ -69,3 +68,5 @@ sample_inputs/            # Gaussian input files with functional+basis
 ---
 ### Contact
 GitHub repository maintained by Tim J. Zuehlsdorff, tim.zuehlsdorff@oregonstate.edu
+
+[comment]: <> (Text for the GitHub release: Computational supporting information for the submitted manuscript, "Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates." Descriptive metadata is provided in the README.md file.)
