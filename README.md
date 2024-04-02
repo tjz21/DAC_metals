@@ -30,13 +30,46 @@ The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and 
 
 ## Contents
 ```
-# Cartesian xyz structures with 
+# 
 # sample Gaussian input files for obtaining intermediates and transition states
 # summary provided by ESIgen 
 echo "Hello, World!"
-```
+mechanism_files/
+├── reaction_energies.sh
+├── MO4/          # Cartesian xyz structures with denoted
+│   ├── CrO4.xyz  #
+│   ├── HfO4.xyz
+│   ├── MoO4.xyz
+│   ├── NbO4.xyz
+│   ├── TaO4.xyz
+│   ├── TiO4.xyz
+│   ├── VO4.xyz
+│   ├── WO4.xyz
+│   ├── ZrO4.xyz
+│   └── calculation_summaries.txt
+│   
+├── MO5CO3/
+│   ├── global_min/
+│   └── mechanism_end/
+│   
+├── MO8/
+├── free_species/
+├── int1/
+├── int2/
+├── int3/
+├── int4/
+├── int4_prime/
+├── ts1/
+├── ts2/
+├── ts3/
+└── ts4_prime/
 
+sample_inputs/
+├── intermediate.com
+└── transition_state.com
+
+16 directories, 132 files
+```
 ---
 ### Contact
 GitHub repository maintained by Tim J. Zuehlsdorff, tim.zuehlsdorff@oregonstate.edu
-
