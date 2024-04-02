@@ -21,8 +21,7 @@ Refer to the below table for the correct combinations of metal center, M, and co
 
 </div>
 
-The reaction mechanism sequence is 
-<div align="center">
+The reaction mechanism sequence is <div align="center">
 [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; &nbsp; &nbsp;
 int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3 &rarr; (int4' &rarr; ts4' &rarr;) int4 &rarr; &nbsp; &nbsp;
 [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub>
