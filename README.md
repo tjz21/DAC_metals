@@ -30,10 +30,6 @@ The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and 
 
 ## Contents
 ```
-# 
-# sample Gaussian input files for obtaining intermediates and transition states
-# summary provided by ESIgen 
-echo "Hello, World!"
 mechanism_files/
 ├── reaction_energies.sh
 ├── MO4/          # Cartesian xyz structures with denoted
@@ -64,8 +60,8 @@ mechanism_files/
 ├── ts3/
 └── ts4_prime/
 
-sample_inputs/
-├── intermediate.com
+sample_inputs/            # Gaussian input files with functional+basis 
+├── intermediate.com      # set specifications
 └── transition_state.com
 
 16 directories, 132 files

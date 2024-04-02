@@ -1,0 +1,540 @@
+Created using ESIgen v0.0.5
+===========================
+
+ESIgen is scientific software, funded by public research grants
+and published as:
+
+    J Rodriguez-Guerra, P Gomez-Orellana, JD Marechal.
+    J. Chem. Inf. Model., 2018, 58 (3), pp 561–564.
+    DOI: 10.1021/acs.jcim.7b00714.
+
+If you make use of ESIgen in scientific publications, please cite
+us in the main text! References only mentioned in SI documents
+are not indexed by citation engines.
+
+
+================================================================================
+
+
+# CrO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -2            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CCrO8(-2)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -726.137825126      |
+| Sum of electronic and zero-point Energies (Eh)   |        -726.104784        |
+| Sum of electronic and thermal Energies (Eh)      |        -726.095256        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -726.094312        |
+| Sum of electronic and thermal Free Energies (Eh) |        -726.139738        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.809601        3.137607        0.738984
+O          -1.698551        1.521093       -0.246186
+O           0.039151        0.661186       -2.965086
+O          -0.610736       -0.792988       -0.826295
+O          -1.981985        1.362975       -1.594202
+O           1.191223        0.521486       -2.206390
+Cr         -0.339849        0.680988       -1.179050
+C           1.069722        2.455180       -0.004259
+O           0.479838        2.840021       -1.072597
+O           0.825861        1.169327        0.292794
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      87.4669 cm-1 (Symmetry: A) 
+  2.     127.6888 cm-1 (Symmetry: A) 
+  3.     162.5855 cm-1 (Symmetry: A) 
+  4.     179.5768 cm-1 (Symmetry: A) 
+  5.     258.9586 cm-1 (Symmetry: A) 
+  6.     266.2287 cm-1 (Symmetry: A) 
+  7.     285.0847 cm-1 (Symmetry: A) 
+  8.     294.9931 cm-1 (Symmetry: A) 
+  9.     327.0242 cm-1 (Symmetry: A) 
+ 10.     337.2748 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# HfO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -4            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CHfO8(-4)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -689.225799548      |
+| Sum of electronic and zero-point Energies (Eh)   |        -689.197475        |
+| Sum of electronic and thermal Energies (Eh)      |        -689.186365        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -689.185421        |
+| Sum of electronic and thermal Free Energies (Eh) |        -689.235585        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.933673        3.264202        0.851025
+O          -2.024977        1.588254       -0.207293
+O           0.059593        0.612118       -3.257535
+O          -0.663585       -1.119112       -0.708417
+O          -2.258630        1.440314       -1.679576
+O           1.324526        0.380000       -2.490664
+Hf         -0.368172        0.691194       -1.219787
+C           1.198222        2.522897        0.137761
+O           0.612658        2.914972       -0.947676
+O           0.970968        1.262038        0.459876
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      67.4307 cm-1 (Symmetry: A) 
+  2.     109.2764 cm-1 (Symmetry: A) 
+  3.     129.9044 cm-1 (Symmetry: A) 
+  4.     154.1337 cm-1 (Symmetry: A) 
+  5.     163.7748 cm-1 (Symmetry: A) 
+  6.     176.5412 cm-1 (Symmetry: A) 
+  7.     194.7978 cm-1 (Symmetry: A) 
+  8.     220.2303 cm-1 (Symmetry: A) 
+  9.     225.0202 cm-1 (Symmetry: A) 
+ 10.     270.6061 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# MoO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -2            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CMoO8(-2)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -707.469366489      |
+| Sum of electronic and zero-point Energies (Eh)   |        -707.437263        |
+| Sum of electronic and thermal Energies (Eh)      |        -707.427467        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -707.426523        |
+| Sum of electronic and thermal Free Energies (Eh) |        -707.473057        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.853625        3.189363        0.759833
+O          -1.823518        1.574989       -0.223185
+O           0.060689        0.650901       -3.081685
+O          -0.638765       -0.945658       -0.774378
+O          -2.094969        1.404082       -1.625189
+O           1.264429        0.493366       -2.310804
+Mo         -0.350937        0.678821       -1.188028
+C           1.121680        2.483636        0.048809
+O           0.512214        2.833638       -1.032004
+O           0.879828        1.193738        0.364346
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      84.7288 cm-1 (Symmetry: A) 
+  2.     114.2377 cm-1 (Symmetry: A) 
+  3.     167.5728 cm-1 (Symmetry: A) 
+  4.     186.3343 cm-1 (Symmetry: A) 
+  5.     223.7353 cm-1 (Symmetry: A) 
+  6.     239.2759 cm-1 (Symmetry: A) 
+  7.     246.3292 cm-1 (Symmetry: A) 
+  8.     264.6594 cm-1 (Symmetry: A) 
+  9.     303.6984 cm-1 (Symmetry: A) 
+ 10.     308.5369 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# NbO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -3            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CNbO8(-3)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -696.484972235      |
+| Sum of electronic and zero-point Energies (Eh)   |        -696.454516        |
+| Sum of electronic and thermal Energies (Eh)      |        -696.444157        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -696.443213        |
+| Sum of electronic and thermal Free Energies (Eh) |        -696.491185        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.911137        3.215351        0.822610
+O          -1.932529        1.587362       -0.234067
+O           0.038443        0.597106       -3.170493
+O          -0.636382       -1.011921       -0.731722
+O          -2.184598        1.388723       -1.667953
+O           1.287805        0.462040       -2.409408
+Nb         -0.365565        0.680528       -1.207711
+C           1.167558        2.505442        0.101706
+O           0.577585        2.899681       -0.975974
+O           0.920822        1.232564        0.410727
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      67.9694 cm-1 (Symmetry: A) 
+  2.     120.6636 cm-1 (Symmetry: A) 
+  3.     140.7025 cm-1 (Symmetry: A) 
+  4.     160.1834 cm-1 (Symmetry: A) 
+  5.     192.7880 cm-1 (Symmetry: A) 
+  6.     211.6741 cm-1 (Symmetry: A) 
+  7.     217.7375 cm-1 (Symmetry: A) 
+  8.     233.6070 cm-1 (Symmetry: A) 
+  9.     268.4916 cm-1 (Symmetry: A) 
+ 10.     289.8216 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# TaO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -3            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CO8Ta(-3)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -698.032362556      |
+| Sum of electronic and zero-point Energies (Eh)   |         -698.00187        |
+| Sum of electronic and thermal Energies (Eh)      |        -697.991605        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -697.990661        |
+| Sum of electronic and thermal Free Energies (Eh) |        -698.038721        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.894226        3.218866        0.791323
+O          -1.904692        1.577012       -0.205037
+O           0.036183        0.626986       -3.157230
+O          -0.634751       -1.000385       -0.740800
+O          -2.167294        1.403324       -1.654247
+O           1.291031        0.453263       -2.386281
+Ta         -0.356473        0.701971       -1.205712
+C           1.157036        2.494263        0.087481
+O           0.550944        2.861937       -0.995081
+O           0.918065        1.219638        0.403298
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      72.0174 cm-1 (Symmetry: A) 
+  2.     130.3681 cm-1 (Symmetry: A) 
+  3.     147.0413 cm-1 (Symmetry: A) 
+  4.     182.4653 cm-1 (Symmetry: A) 
+  5.     205.6905 cm-1 (Symmetry: A) 
+  6.     216.0239 cm-1 (Symmetry: A) 
+  7.     222.4653 cm-1 (Symmetry: A) 
+  8.     242.1573 cm-1 (Symmetry: A) 
+  9.     271.0477 cm-1 (Symmetry: A) 
+ 10.     302.2243 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# TiO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -4            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CO8Ti(-4)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -698.348873252      |
+| Sum of electronic and zero-point Energies (Eh)   |        -698.319393        |
+| Sum of electronic and thermal Energies (Eh)      |         -698.30859        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -698.307646        |
+| Sum of electronic and thermal Free Energies (Eh) |         -698.35724        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.929399        2.939887        1.299042
+O          -1.850144        1.663054       -0.526517
+O          -0.224540        0.133208       -3.233923
+O          -0.485688       -1.013466       -0.541945
+O          -2.354757        0.945693       -1.703710
+O           1.010050        0.603249       -2.593866
+Ti         -0.469992        0.513774       -1.312346
+C           1.289855        2.693330        0.208337
+O           1.102030        3.601342       -0.679469
+O           0.838062        1.476805        0.022110
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      42.5643 cm-1 (Symmetry: A) 
+  2.      71.7566 cm-1 (Symmetry: A) 
+  3.      87.2462 cm-1 (Symmetry: A) 
+  4.     135.5069 cm-1 (Symmetry: A) 
+  5.     164.2096 cm-1 (Symmetry: A) 
+  6.     222.4850 cm-1 (Symmetry: A) 
+  7.     227.0374 cm-1 (Symmetry: A) 
+  8.     245.9893 cm-1 (Symmetry: A) 
+  9.     249.2957 cm-1 (Symmetry: A) 
+ 10.     296.6965 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# VO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -3            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |          CO8V(-3)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -711.430112738      |
+| Sum of electronic and zero-point Energies (Eh)   |         -711.39862        |
+| Sum of electronic and thermal Energies (Eh)      |        -711.388408        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -711.387464        |
+| Sum of electronic and thermal Free Energies (Eh) |        -711.436177        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.933174        3.062150        0.928887
+O          -1.754968        1.556741       -0.334362
+O          -0.060828        0.475443       -3.059505
+O          -0.593016       -0.911956       -0.727468
+O          -2.118363        1.194158       -1.671353
+O           1.147085        0.544149       -2.292871
+V          -0.403102        0.593669       -1.223523
+C           1.150649        2.559628        0.057160
+O           0.682758        3.199587       -0.940074
+O           0.800885        1.283308        0.200823
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      21.8528 cm-1 (Symmetry: A) 
+  2.      52.2142 cm-1 (Symmetry: A) 
+  3.     129.3026 cm-1 (Symmetry: A) 
+  4.     166.8919 cm-1 (Symmetry: A) 
+  5.     183.2556 cm-1 (Symmetry: A) 
+  6.     221.7547 cm-1 (Symmetry: A) 
+  7.     267.0447 cm-1 (Symmetry: A) 
+  8.     277.1856 cm-1 (Symmetry: A) 
+  9.     288.1191 cm-1 (Symmetry: A) 
+ 10.     338.3931 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# WO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -2            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |          CO8W(-2)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -707.827943865      |
+| Sum of electronic and zero-point Energies (Eh)   |        -707.795643        |
+| Sum of electronic and thermal Energies (Eh)      |        -707.785993        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -707.785049        |
+| Sum of electronic and thermal Free Energies (Eh) |        -707.831601        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.844978        3.194908        0.743887
+O          -1.822634        1.562000       -0.202868
+O           0.052617        0.664977       -3.081142
+O          -0.632212       -0.928375       -0.774472
+O          -2.086317        1.411513       -1.634248
+O           1.274910        0.477170       -2.299172
+W          -0.341927        0.712251       -1.192270
+C           1.120489        2.476386        0.050681
+O           0.496215        2.801970       -1.038233
+O           0.878156        1.184077        0.365551
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      87.8729 cm-1 (Symmetry: A) 
+  2.     131.1793 cm-1 (Symmetry: A) 
+  3.     174.5172 cm-1 (Symmetry: A) 
+  4.     207.7502 cm-1 (Symmetry: A) 
+  5.     227.2505 cm-1 (Symmetry: A) 
+  6.     251.8737 cm-1 (Symmetry: A) 
+  7.     252.4942 cm-1 (Symmetry: A) 
+  8.     269.5930 cm-1 (Symmetry: A) 
+  9.     304.5271 cm-1 (Symmetry: A) 
+ 10.     322.9931 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
+# ZrO5CO3
+
+
+__Requested operations__
+
+Run with Gaussian 16revisionA.03.
+
+`#p CAM-B3LYP/Gen scf(conver=8,tight) gfinput Int(Grid=Ultrafine) opt(CalcFC,tight,maxcycle=150) freq(SaveNM,HPmodes) pop=(full,NPA) Pseudo=Read Symmetry=None scrf=(solvent=water)`
+
+__Relevant magnitudes__
+
+
+| Datum                                            | Value                     |
+|:-------------------------------------------------|--------------------------:|
+| Charge                                           |             -4            |
+| Multiplicity                                     |             1             |
+| Stoichiometry                                    |         CO8Zr(-4)         |
+| Number of Basis Functions                        |            184            |
+| Electronic Energy (Eh)                           |       -686.873572626      |
+| Sum of electronic and zero-point Energies (Eh)   |        -686.845503        |
+| Sum of electronic and thermal Energies (Eh)      |        -686.834171        |
+| Sum of electronic and enthalpy Energies (Eh)     |        -686.833227        |
+| Sum of electronic and thermal Free Energies (Eh) |        -686.884014        |
+| Number of Imaginary Frequencies                  |             0             |
+| Mean of alpha and beta Electrons                 |             43            |
+
+__Molecular Geometry in Cartesian Coordinates__
+
+```xyz
+O           1.969026        3.260487        0.884078
+O          -2.069679        1.609264       -0.230925
+O           0.059394        0.578478       -3.292965
+O          -0.670328       -1.137749       -0.694849
+O          -2.302203        1.433762       -1.693544
+O           1.326333        0.380293       -2.532300
+Zr         -0.381148        0.678621       -1.226875
+C           1.223097        2.532650        0.163005
+O           0.643371        2.947862       -0.915996
+O           0.986414        1.273209        0.478085
+```
+
+__Frequencies__ (Top 10 out of 24)
+
+```
+  1.      49.7060 cm-1 (Symmetry: A) 
+  2.      79.1902 cm-1 (Symmetry: A) 
+  3.     106.7083 cm-1 (Symmetry: A) 
+  4.     135.6720 cm-1 (Symmetry: A) 
+  5.     154.7383 cm-1 (Symmetry: A) 
+  6.     163.8871 cm-1 (Symmetry: A) 
+  7.     183.9094 cm-1 (Symmetry: A) 
+  8.     205.7008 cm-1 (Symmetry: A) 
+  9.     216.5186 cm-1 (Symmetry: A) 
+ 10.     260.1714 cm-1 (Symmetry: A) 
+```
+
+================================================================================
+
