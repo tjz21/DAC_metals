@@ -1,4 +1,4 @@
-# DAC-Tetraperoxometalates SI &nbsp; ZENODO\_BADGE\_HERE
+# DAC-Tetraperoxometalates SI &nbsp; 
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
 
@@ -70,4 +70,4 @@ sample_inputs/
 ### Contact
 GitHub repository maintained by Tim J. Zuehlsdorff, tim.zuehlsdorff@oregonstate.edu
 
-[comment]: <> (Text for the GitHub release: Computational supporting information for the submitted manuscript, "Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates." Descriptive metadata is provided in the README.md file.)
+[comment]: <> (Add Zenodo badge to top. Text for the GitHub release: Computational supporting information for the submitted manuscript, "Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates." Descriptive metadata is provided in the README.md file.)
