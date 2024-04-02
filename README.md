@@ -23,9 +23,9 @@ Refer to the below table for the correct combinations of metal center, M, and co
 
 The reaction mechanism sequence is 
 <div align="center">
-Reactants: [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr;
-int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3 &rarr; (int4' &rarr; ts4' &rarr;) int4 &rarr; 
-Products: [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub>
+[M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; &nbsp; &nbsp;
+int1 &rarr; ts1 &rarr; int2 &rarr; ts2 &rarr; int3 &rarr; ts3 &rarr; (int4' &rarr; ts4' &rarr;) int4 &rarr; &nbsp; &nbsp;
+[MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub>
 </div>
 The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and W.
 
