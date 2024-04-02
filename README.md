@@ -30,7 +30,7 @@ The step indicated parenthetically is only required for M = Zr, Hf, Ta, Mo, and 
 ## Contents
 ```
 mechanism_files/
-├── reaction_energies.sh # bash script with all energy values and differences for the DAC and decomposition reactions
+├── reaction_energies.sh # bash script with energy values and differences for DAC and decomp. rxns
 ├── MO4/               
 │   ├── CrO4.xyz         # Cartesian xyz structures with Gibbs Free energy in comment line
 │   ├── HfO4.xyz         # Note CrO4 denotes the species [CrO_4]^2-
