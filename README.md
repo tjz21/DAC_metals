@@ -2,7 +2,7 @@
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
 
-This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to *The Journal of Physical Chemistry A*. All parameters and structures needed to reproduce the reaction mechansim for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LAN2LZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
+This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO<sub>2</sub> Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to *The Journal of Physical Chemistry A*. All parameters and structures needed to reproduce the reaction mechanism for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LAN2LZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
 
 Refer to the below table for the correct combinations of metal center, M, and complex charge, x.
 <div align="center">
@@ -62,7 +62,7 @@ mechanism_files/
 
 sample_inputs/           
 ├── intermediate.com     # Gaussian input files with functional+basis for the mechanism intermediates
-└── transition_state.com # and transiton states
+└── transition_state.com # and transtion states
 
 16 directories, 132 files
 ```
