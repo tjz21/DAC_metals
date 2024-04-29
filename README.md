@@ -40,7 +40,8 @@ mechanism_files/
 │   ├── TaO4.xyz
 │   ├── TiO4.xyz
 │   ├── VO4.xyz
-│   ├── WO4.xyz
+ [comment]: <> (Add Zenodo badge to top. Text for the GitHub release: Computational supporting information for the submitted manuscript, "Electronic
+ Structure and CO2 Reactivity of Group IV/V/VI Tetraperoxometalates." Descriptive metadata is provided in the README.md file.)│   ├── WO4.xyz
 │   ├── ZrO4.xyz
 │   └── calculation_summaries.txt # file with 
 │   
