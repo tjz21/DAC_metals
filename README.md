@@ -1,4 +1,4 @@
-# DAC-Tetraperoxometalates SI &nbsp; 
+# DAC-Tetraperoxometalates SI &nbsp; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11086701.svg)](https://doi.org/10.5281/zenodo.11086701)
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
 
