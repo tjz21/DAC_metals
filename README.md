@@ -1,9 +1,12 @@
-# DAC-Tetraperoxometalates SI &nbsp; [![DOI:<10.1021/acs.jpca.4c02927>](http://img.shields.io/badge/JPCA_Paper-10.1021/acs.jpca.4c02927-blue.svg)](http://dx.doi.org/10.1021/acs.jpca.4c02927) [![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11086701.svg)](https://doi.org/10.5281/zenodo.11086701)
+# DAC-Tetraperoxometalates SI &nbsp;
+
+[![DOI:<10.1021/acs.jpca.4c02927>](http://img.shields.io/badge/JPCA_Paper-10.1021/acs.jpca.4c02927-blue.svg)](http://dx.doi.org/10.1021/acs.jpca.4c02927) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11086701.svg)](https://doi.org/10.5281/zenodo.11086701)
 
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
 
-This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO<sub>2</sub> Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to *JPC A*. All parameters and structures needed to reproduce the reaction mechanism for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LANL2DZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
+This repository contains the computational supporting information for the manuscript 'Electronic Structure and CO<sub>2</sub> Reactivity of Group IV/V/VI Tetraperoxometalates' submitted to [*JPC A*](https://doi.org/10.1021/acs.jpca.4c02927). All parameters and structures needed to reproduce the reaction mechanism for [M(O<sub>2</sub>)<sub>4</sub>]<sup>x-</sup> + CO<sub>2</sub> &rarr; [MO(O<sub>2</sub>)<sub>2</sub>CO<sub>3</sub>]<sup>x-</sup> + O<sub>2</sub> are contained herein. Geometry optimizations were carried out in the Gaussian 16 Rev A.03<sup>1</sup> software package with the CAM-B3LYP functional. LANL2DZ was used for the metal center while C and O were modelled with 6-31+G\*. All xyz structures contain the 298.15 K Gibbs free energy in Ha in the comment line. Calculation summaries in each directory were produced using ESIgen.<sup>2</sup>
 
 Refer to the below table for the correct combinations of metal center, M, and complex charge, x.
 <div align="center">
