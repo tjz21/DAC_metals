@@ -73,7 +73,7 @@ sample_inputs/
 ### Usage
 Make a copy of the entire repo with the following command in a terminal:
 ```bash
-git clone https://github.com/tjz21/CO2_SFG_DFT.git
+git clone https://github.com/tjz21/DAC_metals.git
 ```
 
 or if you would just like a specific file:
