@@ -76,12 +76,12 @@ Make a copy of the entire repo with the following command in a terminal:
 git clone https://github.com/tjz21/DAC_metals.git
 ```
 
-or if you would just like a specific file, use wget and the raw url for that file:
+or if you would just like a specific file, use `wget` and the raw url for that file:
 
 <img align="center" src='https://github.com/tjz21/DAC_metals/blob/main/raw_link_image.png' width = "700" height = "74">
 
 ```bash
-wget [URL of specific file]
+wget [raw URL of specific file]
 ```
 
 ### Contact
