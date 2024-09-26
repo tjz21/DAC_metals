@@ -78,7 +78,7 @@ git clone https://github.com/tjz21/DAC_metals.git
 
 or if you would just like a specific file, use `wget` and the raw url for that file:
 
-<img align="center" src='https://github.com/tjz21/DAC_metals/blob/main/raw_link_image.png' width = "700" height = "74">
+<img align="center" src='https://github.com/tjz21/DAC_metals/blob/main/raw_link_image.png' width = "600" height = "63.4">
 
 ```bash
 wget [raw URL of specific file]
