@@ -1,6 +1,7 @@
 # DAC-Tetraperoxometalates SI &nbsp;
 
 [![DOI:<10.1021/acs.jpca.4c02927>](http://img.shields.io/badge/JPCA_Paper-10.1021/acs.jpca.4c02927-blue.svg)](http://dx.doi.org/10.1021/acs.jpca.4c02927) 
+[![ChemRxiv](http://img.shields.io/badge/ChemRxiv-10.26434/chemrxiv-2024-blwjs-EEEA62.svg)](http://dx.doi.org/10.26434/chemrxiv-2024-blwjs)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11086701.svg)](https://doi.org/10.5281/zenodo.11086701)
 
 <img align="right" src='https://github.com/tjz21/DAC_metals/blob/main/MO8_structure.png' width = "189" height = "200">
